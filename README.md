@@ -1,4 +1,4 @@
-# Bash/Zsh alias for Laradock Workspace
+# Zsh Plugin for Laradock's Workspace
 
 This plugin provide a simple alias to work with [Laradock](http://laradock.io)'s Workspace.
 
