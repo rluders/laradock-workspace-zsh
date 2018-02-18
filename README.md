@@ -6,9 +6,21 @@ This plugin provide a simple alias to work with [Laradock](http://laradock.io)'s
 
 ### Oh My Zsh
 
+1. Clone the plugin
+
 ```
-$ ( cd $ZSH_CUSTOM/plugins && git clone https://github.com/rluders/laradock-workspace-zsh )
+$ ( cd $HOME/.oh-my-zsh/plugins && git clone https://github.com/rluders/laradock-workspace-zsh laradock-workspace )
 ```
+
+2. Load the plugin in ```$HOME/.zshrc```
+
+```
+plugins=(
+  ... laradock-workspace
+)
+```
+
+3. Restart your terminal
 
 ### Antigen
 
